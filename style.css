@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#balance-box {
+  border: 2px solid #000000;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#balance-box p {
+  font-size: 14px;
+}
+
+#balance-amount {
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+.card {
+  border: 1px solid #000000;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000000;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+#error-message,
+#category-error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.list-header select {
+  width: auto;
+}
+
+#transaction-list {
+  list-style: none;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+#transaction-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-category {
+  font-size: 12px;
+  color: #555555;
+}
+
+.item-date {
+  font-size: 11px;
+  color: #999999;
+}
+
+.delete-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  width: auto;
+  margin-top: 0;
+}
+
+.delete-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#monthly-summary-list {
+  list-style: none;
+}
+
+#monthly-summary-list li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cccccc;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+canvas {
+  max-width: 100%;
+}
